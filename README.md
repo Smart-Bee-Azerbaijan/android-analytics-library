@@ -2,7 +2,7 @@
 
 ### Integration
 
-**Step 1**. Add the JitPack repository to your ```build.gradle``` file
+**Step 1. Add the JitPack repository to your ```build.gradle``` file**
 
 ```
 repositories {
@@ -12,7 +12,7 @@ repositories {
 }
 ```
 
-**Step 2**. Add the JitPack repository to your ```build.gradle``` file
+**Step 2. Add the JitPack repository to your ```build.gradle``` file**
 
 ```
 repositories {
@@ -27,7 +27,7 @@ dependencies {
 }
 ```
 
-**Step 3**. Initialize SmartBeeAnalytics
+**Step 3. Initialize SmartBeeAnalytics**
 
 Create YourApp class that extends Application. Override the onCreate method, and initialize the SmartBeeAnalytics SDK with your credentials:
 
@@ -42,9 +42,10 @@ class YourApp extends Application {
      }
 }
 ```
-**Important note: Also call the setToken function when you get a new token**
 
-**Step 4**. Sending Events
+**Important: Also call the setToken function when you get a new token**
+
+**Step 4. Sending Events**
 
 To send events to SmartBeeAnalytics, you can use the sendEvent method. Here's an example of how to use it:
 
