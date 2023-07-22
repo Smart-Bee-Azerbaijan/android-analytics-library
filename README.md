@@ -42,8 +42,7 @@ class YourApp extends Application {
      }
 }
 ```
-
-**Note: Also call the setToken function when you get a new token**
+**Important note: Also call the setToken function when you get a new token**
 
 **Step 4**. Sending Events
 
